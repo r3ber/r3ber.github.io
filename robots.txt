@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://r3ber.github.io/sitemap.xml
