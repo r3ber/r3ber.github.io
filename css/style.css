@@ -1,6 +1,6 @@
 body {
             background-color: #000000;
-            background-image: url('../assets/background.jpg');
+            background-image: url('../assets/background.webp');
             background-repeat: repeat;
             background-attachment: fixed;
             color: #d3d3d3;
@@ -115,3 +115,35 @@ body {
             color: #000000;
             background-color: #ffffff;
         }
+@media (max-width: 768px) {
+    
+    .terminal-container {
+        margin: 15px auto;
+        border-width: 1px;
+    }
+
+    .terminal-body {
+        padding: 15px 20px;
+    }
+
+    .terminal-titlebar {
+        font-size: 0.85em;
+        padding: 4px 5px;
+    }
+
+    .banner pre.ascii-art,
+    .markdown-content pre {
+        font-size: 0.65em;
+        overflow-x: auto;
+        white-space: pre;
+        padding-bottom: 10px;
+    }
+
+    body {
+        font-size: 14px;
+    }
+
+    .post-desc {
+        margin-left: 10px;
+    }
+}
