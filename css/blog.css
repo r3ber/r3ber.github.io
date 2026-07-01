@@ -2,6 +2,23 @@
             margin-bottom: 0;
         }
 
+        .blog-nav {
+            margin-bottom: 18px;
+        }
+
+        .blog-home-link {
+            color: #9a9a9a;
+            text-transform: uppercase;
+            letter-spacing: 0.14em;
+            font-size: 0.85em;
+            font-weight: bold;
+        }
+
+        .blog-home-link:hover {
+            color: #000000;
+            background-color: #ffffff;
+        }
+
         .blog-body {
             max-height: calc(100vh - 102px);
             overflow-y: auto;
