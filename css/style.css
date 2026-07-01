@@ -62,22 +62,6 @@ body {
             min-height: 1px;
         }
 
-        .blog-body .post-item:last-child {
-            margin-bottom: 0;
-        }
-
-        .blog-body {
-            max-height: calc(100vh - 102px);
-            overflow-y: auto;
-        }
-
-        .terminal-footer {
-            margin-top: 8px;
-            color: #ffffff;
-            line-height: 1;
-            font-weight: bold;
-        }
-
         .title-text {
             flex: 2;
             text-align: center;
