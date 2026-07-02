@@ -64,6 +64,46 @@
             margin: 0 0 18px;
         }
 
+        .todo-section {
+            margin-top: 28px;
+        }
+
+        .todo-section h2 {
+            margin: 0 0 14px;
+        }
+
+        .todo-table {
+            width: 100%;
+            border-collapse: collapse;
+            table-layout: fixed;
+            font-size: 0.98rem;
+        }
+
+        .todo-table th,
+        .todo-table td {
+            padding: 12px 14px;
+            text-align: left;
+            vertical-align: top;
+            border: 1px solid rgba(255, 255, 255, 0.16);
+        }
+
+        .todo-table th {
+            color: #ffffff;
+            background: rgba(255, 255, 255, 0.06);
+            text-transform: uppercase;
+            letter-spacing: 0.08em;
+            font-size: 0.82em;
+        }
+
+        .todo-table tbody tr:nth-child(even) td {
+            background: rgba(255, 255, 255, 0.03);
+        }
+
+        .todo-table th + th,
+        .todo-table td + td {
+            border-left-color: rgba(255, 255, 255, 0.28);
+        }
+
         .article-footer {
             margin-top: 32px;
         }
