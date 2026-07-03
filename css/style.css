@@ -112,6 +112,15 @@ body {
             margin-bottom: 10px;
         }
 
+        .webring-item {
+            color: #ffffff;
+            font-weight: bold;
+        }
+
+        .webring-item a {
+            color: #ffffff;
+        }
+
         a {
             color: #ffffff;
             text-decoration: none;
